@@ -2,4 +2,5 @@
 <resources>
     <string name="search_a_conference">Search a conference</string>
     <string name="app_name" translatable="false">Constracker</string>
+    <string name="title">Title</string>
 </resources>
