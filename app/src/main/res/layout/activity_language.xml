@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Welcom to Constracker\nBienvenu sur Constracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Welcom" />
+
+    <TextView
+        android:text="Bienvenu sur Constracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bienvenu" />
+
+    <TextView
+        android:text="Please select your language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Language" />
+
+    <TextView
+        android:text="S'il vous plaît, sélectionnez la langue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Langage" />
+
+    <Button
+        android:text="English"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnglishBtn" />
+
+    <Button
+        android:text="Français"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FrançaisBtn" />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:columnCount="2">
+
+        <TextView
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Title" />
+
+        <TextView
+            android:text="Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TitleD" />
+
+        <TextView
+            android:text="Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Date" />
+
+        <TextView
+            android:text="Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DateD" />
+
+        <TextView
+            android:text="Hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hour" />
+
+        <TextView
+            android:text="Hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HourD" />
+
+        <TextView
+            android:text="Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Duration" />
+
+        <TextView
+            android:text="Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/DurationD" />
+
+        <TextView
+            android:text="Speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Speaker" />
+
+        <TextView
+            android:text="Speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SpeakerD" />
+    </GridLayout>
+
+    <CheckedTextView
+        android:text="Click there if you agree with our conditions of use"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:id="@+id/OkCondition" />
+
+    <Button
+        android:text="Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InscriptionBtn" />
+
+</LinearLayout>

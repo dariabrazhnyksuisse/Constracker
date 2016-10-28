@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/search_a_conference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SearchBtn" />
+
+    <Button
+        android:text="Speaker space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SpeakerspaceBtn" />
+
+    <Button
+        android:text="Want to be speaker ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BeSpeakerBtn" />
+</LinearLayout>
